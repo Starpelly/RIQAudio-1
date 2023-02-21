@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS // because MSVC doesn't like the standard stdio functions and gives errors if this isn't defined
 #include "macros.h"
 
 #include "riqaudio.h"
@@ -7,7 +8,7 @@
 
 #if defined(SUPPORT_FILEFORMAT_OGG)
     #define STB_VORBIS_IMPLEMENTATION
-    #include "miniaudio/external/stb_vorbis.h" // Vorbis decoding
+    #pragma include "miniaudio/extras/stb_vorbis.c" // Vorbis decoding
 #endif
 
 /*#if defined(SUPPORT_FILEFORMAT_WAV)

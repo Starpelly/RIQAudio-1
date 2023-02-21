@@ -405,3 +405,8 @@ bin-int/
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+RIQAudio/vendor/miniaudio/extras/dr_wav.h
+RIQAudio/vendor/miniaudio/extras/miniaudio_libopus.h
+RIQAudio/vendor/miniaudio/extras/miniaudio_libvorbis.h
+RIQAudio/vendor/miniaudio/extras/stb_vorbis.c
+RIQAudio/vendor/miniaudio/miniaudio.h
