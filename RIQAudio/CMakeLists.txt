@@ -24,7 +24,7 @@ endforeach(i in)
 
 
 # ripping stb_vorbis from stb
-# NOTE: due to turning the source file into a header in such a manner, including the header more than twice could be problematic
+# NOTE: due to turning this being a source file, including the header more than twice could be problematic
 # source: https://github.com/nothings/stb
 message("dowloading: extras/stb_vorbis.c")
 file(DOWNLOAD "https://raw.githubusercontent.com/nothings/stb/master/stb_vorbis.c" ${MINIAUDIO_LOCAL}/extras/stb_vorbis.c)
